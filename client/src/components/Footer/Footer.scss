@@ -1,1 +1,17 @@
 @import "../../css-config/mixins.scss";
+
+.footer{
+    width: 100%;
+    .footer-content{
+        padding: 50px 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: wrap;
+        gap: 20px;
+        @include md{
+            justify-content: space-between;
+            padding: 50 0;
+        }
+    }
+}
