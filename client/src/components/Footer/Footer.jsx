@@ -1,11 +1,11 @@
 import React from "react";
-import "./Footer.scss";
 import { FaLocationArrow, FaMobileAlt, FaEnvelope } from "react-icons/fa";
 import Payment from "../../assets/payments.png";
+import "./Footer.scss";
 
 const Footer = () => {
   return (
-    <footer className="foote">
+    <footer className="footer">
       <div className="footer-content">
         <div className="col">
           <div className="title">About</div>

@@ -23,7 +23,7 @@
         }
         .left{
             list-style-type: none;
-            display: flex;
+            display: none;
             gap: 25px;
             @include md{
                 display: flex;
